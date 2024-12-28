@@ -3,9 +3,9 @@
 #include <EEPROM.h>
 
 #include "Audio.h"
-audio_t* sounds[] = { &TimeToWakeUp, &GoodMorningMegan, &GoodMorningKevin, &TuffyMegan, &TuffyEmily, &TuffyKevin };
-audio_t* helloSounds[] = { &HelloKevin, &ISeeYou, &HeyGuys, &WheresTuffy };
-audio_t* byeSounds[] = { &ByeKevin, &PleaseDontLeave, &WhereWeGoing, &TakeMeWithYou };
+audio_t* sounds[] = { &GoodMorningKevin };
+audio_t* helloSounds[] = { &HelloKevin, &ISeeYou };
+audio_t* byeSounds[] = { &ByeKevin };
 
 // Time
 time_t RTCTime;
